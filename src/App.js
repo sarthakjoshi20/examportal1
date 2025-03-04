@@ -54,7 +54,7 @@ export default function App() {
             </div>
             <div className='row bg-success pt-2 pb-2'>
                 <div className='col-4'>
-                  <p style={{fontWeight:"bold"}} className='text-start text-white subsec'>Total Marks: {question.length}</p>
+                  <p style={{fontWeight:"bold"}} className='text-start text-white subsec'>Tot Marks:{question.length}</p>
                 </div>
                 <div className='col-4'>
                   <p style={{fontWeight:"bold"}} className='text-center text-white subsec'>Que: {currentque+1}/{question.length}</p>
